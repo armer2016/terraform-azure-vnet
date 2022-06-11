@@ -1,5 +1,5 @@
 module "Azure_Vnet" {
-  source          = ""
+  source  = "armer2016/vnet/azure"
   rg_name         = "azure_vnet"
   rg_location     = "East US"
   vnet_name       = "MyVnet"

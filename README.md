@@ -3,7 +3,7 @@
 ## Please copy and paste the following code into your release
 ```
 module "Azure_Vnet" {
-source          = ""
+source          = "armer2016/vnet/azure"
 rg_name         = "azure_vnet"      #please provide rg_name
 rg_location     = "East US"         #please provide location
 vnet_name       = "MyVnet"          #VNET Name
